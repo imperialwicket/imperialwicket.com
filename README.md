@@ -29,3 +29,5 @@ fi
 
 exit 0
 ````
+
+Only updating in master lets me investigate template updates and overhauls in alternate branches without worrying about stray deploys.
