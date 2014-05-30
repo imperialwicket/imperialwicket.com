@@ -4,7 +4,7 @@ This is the imperialwicket.com blog, powered by [Hugo](https://github.com/spf13/
 
 ### Git hook
 
-Something like this works great for me, since everytime I commit to master, I want s3 to update:
+A post-commit like this works great for me, since everytime I commit to master, I want s3 to sync:
 
 ````
 #!/bin/bash
