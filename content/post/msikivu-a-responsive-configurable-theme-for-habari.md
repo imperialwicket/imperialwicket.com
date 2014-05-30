@@ -26,7 +26,7 @@ The current version of Msikivu is available [on github](https://github.com/imper
 
 For reference, this site is using the gray theme from a recent iteration of Msikivu.  Below is an image representing the default layout (before any width customizations).  As I mentioned, the widths for all blocks and the content area are configurable in the theme options, so this is really just a baseline for structural reference. The header, nav, and content areas are configured in the theme, all other areas are available for block assignment.
 
-![msikivu_demo.png](/static/files/./msikivu_demo.png)
+![msikivu_demo.png](/files/./msikivu_demo.png)
 
 On my to do list:
 

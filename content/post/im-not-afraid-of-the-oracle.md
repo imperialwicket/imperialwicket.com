@@ -9,7 +9,7 @@
   ]
 }
 Oracle is a huge organization, and they are immensely successful with their commercial software endeavors (probably because they're absurdly expensive).  I have to admit that like most in the open source arena, I felt a bit like Atreyu when the Sun acquisition was first mentioned.
-![southernOracle.png](/static/files/southernOracle.png)
+![southernOracle.png](/files/southernOracle.png)
 
 I probably should have gimped the blue to red, but you get the point.  
 

@@ -29,39 +29,39 @@ Some expected/unexpected (at least by me) results:
 
 ##### A.
 
-![editorByLang.png](/static/files/devSurvey/editorByLang.png)
+![editorByLang.png](/files/devSurvey/editorByLang.png)
 
 ##### B.
 
-![ideByLang.png](/static/files/devSurvey/ideByLang.png)
+![ideByLang.png](/files/devSurvey/ideByLang.png)
 
 ##### C.
 
-![ideByEditor.png](/static/files/devSurvey/ideByEditor.png)
+![ideByEditor.png](/files/devSurvey/ideByEditor.png)
 
 ##### D.
 
-![langByEditor.png](/static/files/devSurvey/langByEditor.png)
+![langByEditor.png](/files/devSurvey/langByEditor.png)
 
 ##### E.
 
-![langByIde.png](/static/files/devSurvey/langByIde.png)
+![langByIde.png](/files/devSurvey/langByIde.png)
 
 ##### F.
 
-![editorByIde.png](/static/files/devSurvey/editorByIde.png)
+![editorByIde.png](/files/devSurvey/editorByIde.png)
 
 ##### G.
 
-![editorDevotion.png](/static/files/devSurvey/editorDevotion.png)
+![editorDevotion.png](/files/devSurvey/editorDevotion.png)
 
 ##### H.
 
-![langDevotion.png](/static/files/devSurvey/langDevotion.png)
+![langDevotion.png](/files/devSurvey/langDevotion.png)
 
 ##### I.
 
-![ideDevotion.png](/static/files/devSurvey/ideDevotion.png)
+![ideDevotion.png](/files/devSurvey/ideDevotion.png)
 
 #### Wrap up
 

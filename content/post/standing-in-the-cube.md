@@ -13,17 +13,17 @@ I hacked up my cube last October. I was becoming more and more discontent with s
 #### The lower standing area - on the left
 
 The lower standing is positioned to allow comfortable reading/writing/typing and shows the MBP featuring The Great Wave of Kanagawa (Hokusai); also notice the whiteboard - more on that later.
-![lower standing](/static/files/2011-04-05_10.53.54.jpg)
+![lower standing](/files/2011-04-05_10.53.54.jpg)
 
 #### The standing area - in the corner/center
 
 The center standing area is positioned to allow the keyboard tray at comfortable typing level.  It has my workplace's standard Dell setup, although I am lucky enough to be able to wipe Windows and use Linux. It is running Ubuntu 10.04 LTS right now. Ubuntu is slowly moving down the ranks in my preferred OS list (a whole other post), but none of the Red Hat derivatives would support my wireless card, hardware controls, and monitors out of the box.  And yes, that's a backlit Saitek keyboard.  It is the eclipse, and it is the first run of the first edition, which has great keyboard action. The eclipse II has stronger springs, and the second run of the first edition had an issue with the paint wearing off the keys (not really that big of a deal). I do not really care about the backlighting, but it comes on by default, and I often forget to turn it off.
-![standing](/static/files/2011-04-05_10.54.05.jpg)
+![standing](/files/2011-04-05_10.54.05.jpg)
 
 #### The seating area - on the right
 
 There is the all-too-typical Aeron, in front of the seated area.  There is a light over the desk, and a shelf above the light with a few tech books, some storage, and a couple of random things with which I could not part during the cleaning.  Sorry about the lighting here.
-![seated](/static/files/2011-04-05_10.54.14.jpg)
+![seated](/files/2011-04-05_10.54.14.jpg)
 
 I have been extremely pleased with my stand up desk. I recently attended a training event (seated), and it became even more clear to me how much I prefer standing. After only a few days of the 9-5, seated, daily grind, my back was already sore and I could tell that my spirits were diminishing. I could not figure out a way to accurately track things like productivity or morale, but I am inclined to say that both are positively affected by standing, at least in my case.  
 

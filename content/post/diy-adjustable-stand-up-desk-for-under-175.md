@@ -18,9 +18,9 @@ I will point out here that there are several nice stand-up desks on the market, 
 
 #### Sneak peak
 
-![assembled_front.jpg](/static/files/assembled_front.jpg)
+![assembled_front.jpg](/files/assembled_front.jpg)
 
-![assembled_side.jpg](/static/files/assembled_side.jpg)
+![assembled_side.jpg](/files/assembled_side.jpg)
 
 #### Requirements
 
@@ -44,7 +44,7 @@ After a few designs were thrown away, and some basic calculations were made for 
 
 My primary criteria for the design was to meet my requirements, and to be buildable with inexpensive and common tools. It also had to be relatively simple to adjust and assemble/disassemble.
 
-![plans.jpg](/static/files/plans.jpg)
+![plans.jpg](/files/plans.jpg)
 
 #### Parts List
 
@@ -76,7 +76,7 @@ Finishing (optional):
 *   Seal (I used Minwax Satin finish polyurethane, 1 quart was sufficient to cover lumber once and plywood two to three times)
 *   Foam brushes - buy several, they are cheap and usually far from durable
 
-![parts.jpg](/static/files/parts.jpg)
+![parts.jpg](/files/parts.jpg)
 
 #### Cost notes
 
@@ -104,7 +104,7 @@ Given my arrangement, the larger lower shelf is great for cpu and printer, and d
 
 The only building issue I encountered was due to hand drill use (as opposed to a drill press). I ended up with a lot of holes that were not quite true or slightly offset. As a result, I decided to drill 3/4 holes in my shelf supports to allow for additional play from the mounting carriage bolts. This actually turned out to be quite convenient, as it also offered the ability to clean up subtle leveling issues. 
 
-![components.jpg](/static/files/components.jpg)
+![components.jpg](/files/components.jpg)
 
 I do not do a lot of woodworking, but I feel comfortable doing it. Nonetheless, I grossly underestimated the amount of sanding time this project required - and I did not put as many coats of seal (220 grit in between each coat) on the desk as I would have liked.
 

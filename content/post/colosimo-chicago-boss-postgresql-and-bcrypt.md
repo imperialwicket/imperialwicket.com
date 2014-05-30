@@ -99,11 +99,11 @@ CREATE TABLE
 
 ### Static content (html5-boilerplate)
 
-I am using [html5 boilerplate](http://html5boilerplate.com/) as a starter for my template. All you need to do is extract the boilerplate files to the ~/colosimo/priv/static/ directory, and then update the relative paths to map to "/static/<file>" instead of just "/<file>". To fill out the templating effort, I removed a bunch of items that were unnecessary for this project, and added a couple template blocks to the index file. I also made some basic changes to the css for things like inline display of the nav li.
+I am using [html5 boilerplate](http://html5boilerplate.com/) as a starter for my template. All you need to do is extract the boilerplate files to the ~/colosimo/priv/ directory, and then update the relative paths to map to "/<file>" instead of just "/<file>". To fill out the templating effort, I removed a bunch of items that were unnecessary for this project, and added a couple template blocks to the index file. I also made some basic changes to the css for things like inline display of the nav li.
 
-In order to use the index.html file as the base for my templates I moved it from the /priv/static/ directory to the colosimo view directory (and renamed it to 'base.html'):
+In order to use the index.html file as the base for my templates I moved it from the /priv/ directory to the colosimo view directory (and renamed it to 'base.html'):
 <pre>
-mv ~/colosimo/priv/static/index.html ~/colosimo/src/view/base.html
+mv ~/colosimo/priv/index.html ~/colosimo/src/view/base.html
 </pre>
 
 ### Template extensions and blocks

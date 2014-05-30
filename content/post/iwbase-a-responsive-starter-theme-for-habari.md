@@ -13,7 +13,7 @@ iwBase is a responsive starter theme for Habari. It comes with two stylesheets s
 
 [Download iwBase 0.8.1 from GitHub](https://github.com/imperialwicket/iwBase/zipball/0.8.1)
 
-![iwBase.png](/static/files/./iwBase.png)
+![iwBase.png](/files/./iwBase.png)
 
 iwBase is intended as a few-frills starter theme. The image shows the header with Title, tagline, and navigation (navigation is hard-coded in the header, I did not want to include a custom menu block). Beneath the header is the left content section which includes a top banner area, and the main content display. The sidebar area is configured on the right. A bottom banner area covers the full width at the bottom of the page, directly above the footer, which displays a basic 'powered by habari' message and the atom links.
 

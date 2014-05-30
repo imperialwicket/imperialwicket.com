@@ -17,7 +17,7 @@ I am very interested in [Piwik](http://piwik.org/), and version 1.0 released nea
 
 I was a little surprised that the Piwik installation instructions suggest to extract the archive locally, then FTP the contents to your server.  I suppose this better accommodates the myriad terrible hosting providers that do not elegantly support extract/compress on their servers.  Biting my tongue, I extracted locally and uploaded via FTP.  Loading the sub-directory from my server, I saw the initial screen, and moved right to the "Next" button.  Everything looks fine, except there are some issues in the "Optional - File Integrity" section.  I know it is in the optional section, but come on - File Integrity?  I feel like this should be addressed.  The message is: "File integrity check failed and reported some errors. This is most likely due to a partial or failed upload of some of the Piwik files. You should reupload all the Piwik files in BINARY mode and refresh this page until it shows no error."  The details look like:
 
-![20101017_piwik_error.png](/static/files/20101017_piwik_error.png)
+![20101017_piwik_error.png](/files/20101017_piwik_error.png)
 
 As it suggests, I flipped my FTP transfer to binary mode, replaced the three files in question, reloaded the index.php file to restart the installation process, and no more file integrity issues.
 

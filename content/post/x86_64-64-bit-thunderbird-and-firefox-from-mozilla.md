@@ -24,11 +24,11 @@ Let's cut to the chase: check out Mozilla's default offering to 64 bit Linux use
 
 #### Thunderbird
 
-![thunderbird-download.png](/static/files/thunderbird-download.png)
+![thunderbird-download.png](/files/thunderbird-download.png)
 
 #### Firefox
 
-![firefox-download.png](/static/files/firefox-download.png)
+![firefox-download.png](/files/firefox-download.png)
 
 Just to be clear, I am not doing any strange trickery here. When I navigate to [mozilla.com](http://www.mozilla.com/), the firefox image is what I see. No magical user-agent masking or magic, either:
 

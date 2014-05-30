@@ -31,7 +31,7 @@ fOxc):nJJ}jY|`_N"{In :S;t
 
 Alt+Tab back to the browser window (I am on Fedora 14, and I figured Firefox 3.6 was the safest plan), then a quick Ctrl+V, Tab, Ctrl+V and I'm in business.
 
-![qb_strength.png](/static/files/qb_strength.png)
+![qb_strength.png](/files/qb_strength.png)
 
 Wait, why does my 25 character (upper, lower, number, white space, minus, underline, and special characters inclusive) not register a 5/5 on the password strength?  Browser incompatibility?  Can't be... 
 
@@ -56,7 +56,7 @@ Take two, no spaces.  Still a fine looking password, if you ask me:
 
 Ok, create user - all right, a welcome screen!  Oh wait...
 
-![qb_false-welcome.png](/static/files/qb_false-welcome.png)
+![qb_false-welcome.png](/files/qb_false-welcome.png)
 
 #### Reaction 4: Terrible (and insecure) UI/UX
 
