@@ -16,9 +16,9 @@ A post-commit like this works great for me, since everytime I commit to master, 
 bucket='yourBucketName'
 prefix=''
 
-read oldrev newrev refname
+branch=$(git rev-parse --abbrev-ref HEAD)
 
-if [[ "$refname" == "refs/heads/master" ]]; then
+if [[ "$branch" == "master" ]]; then
   cd ../..
   echo "Syncing public/* with s3://$bucket/$prefix."
   s3cmd --acl-public --delete-removed sync public/* s3://$bucket/$prefix
