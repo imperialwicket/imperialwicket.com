@@ -16,14 +16,14 @@ I also think it would be good to devote some time to mining deeper to get a litt
 
 Some expected/unexpected (at least by me) results:  
 
-A.  (Unexpected) Objective-c devs are expressing a lot of textmate use.  My surprise here is that people are using anything other than xCode to develop objective-c.  I need to dig more here to confirm this, but I'm assuming this is a case where users are developing multiple languages, and using textmate for non-objective-c needs.  Note:  I do not do much objective-c development, so I could be way off on this one.
-A,D.  (Expected) Lisp/Erlang devs tend to like emacs.  
-B.  (Expected) C# devs have a high rate of Visual Studio usage,  Java devs have a high rate of Eclipse usage, and Objective-c devs have a high rate of xcode usage.
-D.  (Unexpected) Ruby makes up a larger percentage of the textmate languages than I would have expected (again, this could be an issue stemming from multiple submissions per individual.
-G.  (Expected) Emacs and Vim users had the highest devotion.  I'm using 'devotion' to indicate how many checkboxes were submitted per category.  If I only submitted the Vim editor, I have high devotion; if I submitted seven different editors, including Vim, I represent low devotion for Vim (and the six other editors).
-G.  (Unexpected) Textpad, Textmate, and Notepad++ were third, fourth, and fifth in editor devotion (and jedit came in sixth.
-H.  (Expected) HTML/CSS, JavaScript, and PHP had very low devotion.  I think this stems mostly from the demographic (Hacker News) participating in the study.
-I.  (Expected) IDEs generally had higher levels of devotion.  
+- A.  (Unexpected) Objective-c devs are expressing a lot of textmate use.  My surprise here is that people are using anything other than xCode to develop objective-c.  I need to dig more here to confirm this, but I'm assuming this is a case where users are developing multiple languages, and using textmate for non-objective-c needs.  Note:  I do not do much objective-c development, so I could be way off on this one.
+- A,D.  (Expected) Lisp/Erlang devs tend to like emacs.  
+- B.  (Expected) C# devs have a high rate of Visual Studio usage,  Java devs have a high rate of Eclipse usage, and Objective-c devs have a high rate of xcode usage.
+- D.  (Unexpected) Ruby makes up a larger percentage of the textmate languages than I would have expected (again, this could be an issue stemming from multiple submissions per individual.
+- G.  (Expected) Emacs and Vim users had the highest devotion.  I'm using 'devotion' to indicate how many checkboxes were submitted per category.  If I only submitted the Vim editor, I have high devotion; if I submitted seven different editors, including Vim, I represent low devotion for Vim (and the six other editors).
+- G.  (Unexpected) Textpad, Textmate, and Notepad++ were third, fourth, and fifth in editor devotion (and jedit came in sixth.
+- H.  (Expected) HTML/CSS, JavaScript, and PHP had very low devotion.  I think this stems mostly from the demographic (Hacker News) participating in the study.
+- I.  (Expected) IDEs generally had higher levels of devotion.  
 
 #### Charts!
 
