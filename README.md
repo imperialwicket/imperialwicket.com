@@ -1,6 +1,6 @@
 # imperialwicket.com blog
 
-This is the imperialwicket.com blog, powered by [Hugo](https://github.com/spf13/hugo/).
+This is the imperialwicket.com blog, powered by [Hugo](https://github.com/spf13/hugo/), hosted on S3/Cloudfront.
 
 ### Git hook
 
