@@ -3,7 +3,7 @@
 <head>
     {{ template "chrome/meta.html" . }}
 
-    <title>{{ .Title }} - {{ .Site.BaseUrl }}</title>
+    <title>{{ .Site.Title}} - {{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     {{ template "chrome/header.includes.html" . }}
     {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
