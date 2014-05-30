@@ -12,11 +12,11 @@ This is not an instructional for beating your strange Aunt at backyard croquet d
 
 I'm not trying to sound as though I do not respect backyard croquet, I suppose it offers a productive introduction to the game for individuals who may otherwise never play.  But I do not respect backyard croquet, and once you have transitioned from backyard croquet to croquet, neither should you.  I'll try to illustrate the difference with the following images:
 
-![20101027_croquet.jpg](http://www.imperialwicket.com/static/files/20101027_croquet.jpg)
+![20101027_croquet.jpg](/static/files/20101027_croquet.jpg)
 
 Backyard croquet.  Notice the puppy and the clever smile.  Oh how cute croquet must be!
 
-![20101027_2007NationalCroquetDay-4.jpg](http://www.imperialwicket.com/static/files/20101027_2007NationalCroquetDay-4.jpg)
+![20101027_2007NationalCroquetDay-4.jpg](/static/files/20101027_2007NationalCroquetDay-4.jpg)
 
 Croquet.  Of the US 6 Wicket variety.  Notice the camera man sacrificing the body to get the shot, and the pure concentration exuding from every pore as players execute their shots.  Oh, what a game.  By the way, the action shot is from [croquetamerica.com](http://www.croquetamerica.com/news/association/2007NationalCroquetDay.php), not sure about the historic-ish looking image, it landed in my lap several years ago, and I do not know from whence it came.
 
