@@ -10,8 +10,9 @@ A post-commit like this works great for me, since everytime I commit to master, 
 #!/bin/bash
 #
 # Deploy to s3 when master gets updated. 
-# This expects (and does NOT check for) s3cmd to be installed and configured!
 #
+# This expects (and does NOT check for) s3cmd to be installed and configured!
+# This expects (and does NOT check for) hugo to be installed and on your $PATH
 
 bucket='yourBucketName'
 prefix=''
@@ -19,7 +20,7 @@ prefix=''
 branch=$(git rev-parse --abbrev-ref HEAD)
 
 if [[ "$branch" == "master" ]]; then
-  cd ../..
+  hugo
   echo "Syncing public/* with s3://$bucket/$prefix."
   s3cmd --acl-public --delete-removed sync public/* s3://$bucket/$prefix
   echo -e "\nUpdated s3://$bucket/$prefix."
