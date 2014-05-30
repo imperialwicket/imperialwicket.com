@@ -1,0 +1,31 @@
+# imperialwicket.com blog
+
+This is the imperialwicket.com blog, powered by [Hugo](https://github.com/spf13/hugo/).
+
+### Git hook
+
+Something like this works great for me, since everytime I commit to master, I want s3 to update:
+
+````
+#!/bin/bash
+#
+# Deploy to s3 when master gets updated. 
+# This expects (and does NOT check for) s3cmd to be installed and configured!
+#
+
+bucket='yourBucketName'
+prefix=''
+
+read oldrev newrev refname
+
+if [[ "$refname" == "refs/heads/master" ]]; then
+  cd ../..
+  echo "Syncing public/* with s3://$bucket/$prefix."
+  s3cmd --acl-public --delete-removed sync public/* s3://$bucket/$prefix
+  echo -e "\nUpdated s3://$bucket/$prefix."
+else
+  echo "*** s3://$bucket/$prefix only syncs when master branch is updated! ***"
+fi
+
+exit 0
+````
