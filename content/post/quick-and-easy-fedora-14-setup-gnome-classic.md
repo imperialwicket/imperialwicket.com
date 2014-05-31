@@ -2,7 +2,7 @@
   "title": "Quick and easy Fedora 14 setup (Gnome Classic)",
   "description": "Quick and easy Fedora 14 setup (Gnome Classic)",
   "date": "2011-07-20",
-  "url": "quick-and-easy-fedora-14-setup-gnome-classic",
+  "url": "quick-and-easy-fedora-14-setup-gnome-classic/",
   "type": "post",
   "tags": [
     "opensource",

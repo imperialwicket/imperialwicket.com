@@ -2,7 +2,7 @@
   "title": "Tuning Apache for a low memory server (like AWS Micro EC2 instances)",
   "description": "Tuning Apache for a low memory server (like AWS Micro EC2 instances)",
   "date": "2012-01-09",
-  "url": "tuning-apache-for-a-low-memory-server-like-aws-micro-ec2-instances",
+  "url": "tuning-apache-for-a-low-memory-server-like-aws-micro-ec2-instances/",
   "type": "post",
   "tags": [
     "aws",

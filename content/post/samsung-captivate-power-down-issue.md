@@ -2,7 +2,7 @@
   "title": "Samsung Captivate Power Down Issue",
   "description": "Samsung Captivate Power Down Issue",
   "date": "2010-12-21",
-  "url": "samsung-captivate-power-down-issue",
+  "url": "samsung-captivate-power-down-issue/",
   "type": "post",
   "tags": [
     "android",

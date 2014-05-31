@@ -2,7 +2,7 @@
   "title": "Netflix Asgard AMI Updates",
   "description": "Netflix Asgard AMI Updates",
   "date": "2013-06-06",
-  "url": "netflix-asgard-ami-updates",
+  "url": "netflix-asgard-ami-updates/",
   "type": "post",
   "tags": [
     "aws",

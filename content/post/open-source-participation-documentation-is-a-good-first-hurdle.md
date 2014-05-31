@@ -2,7 +2,7 @@
   "title": "Open Source Participation: Documentation is a good first hurdle",
   "description": "Open Source Participation: Documentation is a good first hurdle",
   "date": "2011-02-10",
-  "url": "open-source-participation-documentation-is-a-good-first-hurdle",
+  "url": "open-source-participation-documentation-is-a-good-first-hurdle/",
   "type": "post",
   "tags": [
     "geoserver",

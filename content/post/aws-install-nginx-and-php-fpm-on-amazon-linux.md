@@ -2,7 +2,7 @@
   "title": "AWS: Install Nginx and PHP-FPM on Amazon Linux",
   "description": "AWS: Install Nginx and PHP-FPM on Amazon Linux",
   "date": "2012-05-10",
-  "url": "aws-install-nginx-and-php-fpm-on-amazon-linux",
+  "url": "aws-install-nginx-and-php-fpm-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

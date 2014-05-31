@@ -2,7 +2,7 @@
   "title": "Samsung Captivate: Root and install ROM (Fasty)",
   "description": "Samsung Captivate: Root and install ROM (Fasty)",
   "date": "2011-09-27",
-  "url": "samsung-captivate-root-and-install-rom-fasty",
+  "url": "samsung-captivate-root-and-install-rom-fasty/",
   "type": "post",
   "tags": [
     "captivate"

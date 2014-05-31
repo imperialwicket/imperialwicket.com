@@ -2,7 +2,7 @@
   "title": "AWS: Install Chicago Boss on Amazon Linux",
   "description": "AWS: Install Chicago Boss on Amazon Linux",
   "date": "2012-03-01",
-  "url": "aws-install-chicago-boss-on-amazon-linux",
+  "url": "aws-install-chicago-boss-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

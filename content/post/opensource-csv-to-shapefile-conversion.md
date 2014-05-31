@@ -2,7 +2,7 @@
   "title": "Opensource CSV to shapefile conversion (PostGIS)",
   "description": "Opensource CSV to shapefile conversion (PostGIS)",
   "date": "2011-05-20",
-  "url": "opensource-csv-to-shapefile-conversion",
+  "url": "opensource-csv-to-shapefile-conversion/",
   "type": "post",
   "tags": [
     "opensource",

@@ -2,7 +2,7 @@
   "title": "AWS: Install Zotonic CMS on Amazon Linux",
   "description": "AWS: Install Zotonic CMS on Amazon Linux",
   "date": "2011-06-12",
-  "url": "aws-install-zotonic-cms-on-amazon-linux",
+  "url": "aws-install-zotonic-cms-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

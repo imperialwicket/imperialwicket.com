@@ -2,7 +2,7 @@
   "title": "The best (and worst) password managers",
   "description": "The best (and worst) password managers",
   "date": "2010-10-29",
-  "url": "the-best-and-worst-password-managers",
+  "url": "the-best-and-worst-password-managers/",
   "type": "post",
   "tags": [
     "security",

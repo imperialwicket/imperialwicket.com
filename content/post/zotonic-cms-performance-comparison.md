@@ -2,7 +2,7 @@
   "title": "Zotonic CMS performance comparison",
   "description": "Zotonic CMS performance comparison",
   "date": "2011-08-24",
-  "url": "zotonic-cms-performance-comparison",
+  "url": "zotonic-cms-performance-comparison/",
   "type": "post",
   "tags": [
     "erlang",

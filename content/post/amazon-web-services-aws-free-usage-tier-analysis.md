@@ -2,7 +2,7 @@
   "title": "Amazon Web Services (AWS) Free Usage Tier Analysis",
   "description": "Amazon Web Services (AWS) Free Usage Tier Analysis",
   "date": "2010-10-31",
-  "url": "amazon-web-services-aws-free-usage-tier-analysis",
+  "url": "amazon-web-services-aws-free-usage-tier-analysis/",
   "type": "post",
   "tags": [
     "aws"

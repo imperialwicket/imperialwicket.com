@@ -2,7 +2,7 @@
   "title": "PostgreSQL: Automating monthly table partitions",
   "description": "PostgreSQL: Automating monthly table partitions",
   "date": "2010-12-29",
-  "url": "postgresql-automating-monthly-table-partitions",
+  "url": "postgresql-automating-monthly-table-partitions/",
   "type": "post",
   "tags": [
     "postgresql"

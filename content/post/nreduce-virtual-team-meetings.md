@@ -2,7 +2,7 @@
   "title": "nReduce: Virtual team meetings",
   "description": "nReduce: Virtual team meetings",
   "date": "2012-06-12",
-  "url": "nreduce-virtual-team-meetings",
+  "url": "nreduce-virtual-team-meetings/",
   "type": "post",
   "tags": [
     "dev"

@@ -2,7 +2,7 @@
   "title": "Increase PHP memory_limit on GoDaddy shared Linux hosting",
   "description": "Increase PHP memory_limit on GoDaddy shared Linux hosting",
   "date": "2012-02-09",
-  "url": "increase-php-memory_limit-on-godaddy-shared-linux-hosting",
+  "url": "increase-php-memory_limit-on-godaddy-shared-linux-hosting/",
   "type": "post",
   "tags": [
     "apache",

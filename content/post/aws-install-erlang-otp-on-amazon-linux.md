@@ -2,7 +2,7 @@
   "title": "AWS: Install Erlang/OTP on Amazon Linux",
   "description": "AWS: Install Erlang/OTP on Amazon Linux",
   "date": "2011-06-11",
-  "url": "aws-install-erlang-otp-on-amazon-linux",
+  "url": "aws-install-erlang-otp-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

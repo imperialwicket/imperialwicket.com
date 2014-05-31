@@ -2,7 +2,7 @@
   "title": "Elasticsearch Logstash index backup, restore, rotate",
   "description": "Elasticsearch Logstash index backup, restore, rotate",
   "date": "2013-05-21",
-  "url": "elasticsearch-logstash-index-backup-restore-rotate",
+  "url": "elasticsearch-logstash-index-backup-restore-rotate/",
   "type": "post",
   "tags": [
     "scripts",

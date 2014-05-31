@@ -2,7 +2,7 @@
   "title": "Getting Started In Open Source Part 2: Where can I take these courses?",
   "description": "Getting Started In Open Source Part 2: Where can I take these courses?",
   "date": "2011-02-24",
-  "url": "getting-started-in-open-source-part-2-where-can-i-take-these-courses",
+  "url": "getting-started-in-open-source-part-2-where-can-i-take-these-courses/",
   "type": "post",
   "tags": [
     "teachingopensource"

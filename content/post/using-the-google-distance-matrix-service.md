@@ -2,7 +2,7 @@
   "title": "Using the Google Distance Matrix Service",
   "description": "Using the Google Distance Matrix Service",
   "date": "2011-06-21",
-  "url": "using-the-google-distance-matrix-service",
+  "url": "using-the-google-distance-matrix-service/",
   "type": "post",
   "tags": [
     "google maps api"

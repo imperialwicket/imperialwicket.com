@@ -2,7 +2,7 @@
   "title": "Msikivu 0.8.3: A responsive, configurable theme for Habari ",
   "description": "Msikivu 0.8.3: A responsive, configurable theme for Habari ",
   "date": "2012-05-03",
-  "url": "msikivu-08-a-responsive-configurable-theme-for-habari",
+  "url": "msikivu-08-a-responsive-configurable-theme-for-habari/",
   "type": "post",
   "tags": [
     "habari",

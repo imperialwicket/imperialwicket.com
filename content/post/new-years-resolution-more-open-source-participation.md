@@ -2,7 +2,7 @@
   "title": "New Year's Resolution: More open source participation",
   "description": "New Year's Resolution: More open source participation",
   "date": "2010-12-23",
-  "url": "new-years-resolution-more-open-source-participation",
+  "url": "new-years-resolution-more-open-source-participation/",
   "type": "post",
   "tags": [
     "habari",

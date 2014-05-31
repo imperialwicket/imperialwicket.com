@@ -2,7 +2,7 @@
   "title": "Moving to the AWS Cloud",
   "description": "Moving to the AWS Cloud",
   "date": "2013-06-07",
-  "url": "moving-to-the-aws-cloud",
+  "url": "moving-to-the-aws-cloud/",
   "type": "post",
   "tags": [
     "aws"

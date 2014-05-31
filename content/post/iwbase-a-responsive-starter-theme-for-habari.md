@@ -2,7 +2,7 @@
   "title": "iwBase: A responsive starter theme for Habari",
   "description": "iwBase: A responsive starter theme for Habari",
   "date": "2011-12-18",
-  "url": "iwbase-a-responsive-starter-theme-for-habari",
+  "url": "iwbase-a-responsive-starter-theme-for-habari/",
   "type": "post",
   "tags": [
     "habari",

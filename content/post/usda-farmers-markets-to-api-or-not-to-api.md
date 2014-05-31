@@ -2,7 +2,7 @@
   "title": "USDA Farmers Markets - To API or not to API",
   "description": "USDA Farmers Markets - To API or not to API",
   "date": "2011-08-09",
-  "url": "usda-farmers-markets-to-api-or-not-to-api",
+  "url": "usda-farmers-markets-to-api-or-not-to-api/",
   "type": "post",
   "tags": [
     "google maps api"

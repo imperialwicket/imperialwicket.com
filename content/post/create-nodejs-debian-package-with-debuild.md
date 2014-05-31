@@ -2,7 +2,7 @@
   "title": "Create nodejs debian package with debuild",
   "description": "Create nodejs debian package with debuild",
   "date": "2013-08-07",
-  "url": "create-nodejs-debian-package-with-debuild",
+  "url": "create-nodejs-debian-package-with-debuild/",
   "type": "post",
   "tags": [
     "nodejs",

@@ -2,7 +2,7 @@
   "title": "AWS: Password-less SSH and SCP on Amazon Linux",
   "description": "AWS: Password-less SSH and SCP on Amazon Linux",
   "date": "2011-07-02",
-  "url": "aws-password-less-ssh-and-scp-on-amazon-linux",
+  "url": "aws-password-less-ssh-and-scp-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws"

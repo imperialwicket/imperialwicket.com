@@ -2,7 +2,7 @@
   "title": "String concatenation on the iPhone (Objective-C)",
   "description": "String concatenation on the iPhone (Objective-C)",
   "date": "2011-05-06",
-  "url": "string-concatenation-on-the-iphone-objective-c",
+  "url": "string-concatenation-on-the-iphone-objective-c/",
   "type": "post",
   "tags": [
     "objective-c",

@@ -2,7 +2,7 @@
   "title": "WordPress 3.1 temporarily integrates Django?",
   "description": "WordPress 3.1 temporarily integrates Django?",
   "date": "2011-02-23",
-  "url": "wordpress-31-temporarily-integrates-django",
+  "url": "wordpress-31-temporarily-integrates-django/",
   "type": "post",
   "tags": [
     "opensource"

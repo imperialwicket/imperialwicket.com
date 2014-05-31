@@ -2,7 +2,7 @@
   "title": "AWS: Install PostgreSQL on Amazon Linux (quick and dirty)",
   "description": "AWS: Install PostgreSQL on Amazon Linux (quick and dirty)",
   "date": "2011-05-31",
-  "url": "aws-install-postgresql-on-amazon-linux-quick-and-dirty",
+  "url": "aws-install-postgresql-on-amazon-linux-quick-and-dirty/",
   "type": "post",
   "tags": [
     "aws",

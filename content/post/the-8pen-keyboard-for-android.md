@@ -2,7 +2,7 @@
   "title": "The 8pen keyboard for Android",
   "description": "The 8pen keyboard for Android",
   "date": "2010-11-02",
-  "url": "the-8pen-keyboard-for-android",
+  "url": "the-8pen-keyboard-for-android/",
   "type": "post",
   "tags": [
     "android",

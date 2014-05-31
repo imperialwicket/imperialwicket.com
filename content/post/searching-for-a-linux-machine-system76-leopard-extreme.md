@@ -2,7 +2,7 @@
   "title": "Searching for a Linux Machine (System76 Leopard Extreme)",
   "description": "Searching for a Linux Machine (System76 Leopard Extreme)",
   "date": "2011-07-23",
-  "url": "searching-for-a-linux-machine-system76-leopard-extreme",
+  "url": "searching-for-a-linux-machine-system76-leopard-extreme/",
   "type": "post",
   "tags": [
     "opensource",

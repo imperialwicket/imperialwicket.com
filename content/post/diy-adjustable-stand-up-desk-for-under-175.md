@@ -2,7 +2,7 @@
   "title": "DIY adjustable stand up desk (for under $175)",
   "description": "DIY adjustable stand up desk (for under $175)",
   "date": "2011-09-01",
-  "url": "diy-adjustable-stand-up-desk-for-under-175",
+  "url": "diy-adjustable-stand-up-desk-for-under-175/",
   "type": "post",
   "tags": [
     "dev"

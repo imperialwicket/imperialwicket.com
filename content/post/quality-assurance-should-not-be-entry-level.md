@@ -2,7 +2,7 @@
   "title": "Quality Assurance should not be entry-level ",
   "description": "Quality Assurance should not be entry-level ",
   "date": "2010-12-02",
-  "url": "quality-assurance-should-not-be-entry-level",
+  "url": "quality-assurance-should-not-be-entry-level/",
   "type": "post",
   "tags": [
     "qa"

@@ -2,7 +2,7 @@
   "title": "Habari",
   "description": "Habari",
   "date": "2010-10-16",
-  "url": "habari",
+  "url": "habari/",
   "type": "post",
   "tags": [
     "habari"

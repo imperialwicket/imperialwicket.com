@@ -2,7 +2,7 @@
   "title": "AWS: Install PostgreSQL 9.0 on Amazon Linux",
   "description": "AWS: Install PostgreSQL 9.0 on Amazon Linux",
   "date": "2011-06-03",
-  "url": "aws-install-postgresql-90-on-amazon-linux",
+  "url": "aws-install-postgresql-90-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

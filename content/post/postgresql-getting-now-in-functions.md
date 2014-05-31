@@ -2,7 +2,7 @@
   "title": "PostgreSQL: Getting now() in functions",
   "description": "PostgreSQL: Getting now() in functions",
   "date": "2011-01-03",
-  "url": "postgresql-getting-now-in-functions",
+  "url": "postgresql-getting-now-in-functions/",
   "type": "post",
   "tags": [
     "postgresql"

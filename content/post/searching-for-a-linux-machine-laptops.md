@@ -2,7 +2,7 @@
   "title": "Searching for a Linux Machine (Laptops)",
   "description": "Searching for a Linux Machine (Laptops)",
   "date": "2011-07-20",
-  "url": "searching-for-a-linux-machine-laptops",
+  "url": "searching-for-a-linux-machine-laptops/",
   "type": "post",
   "tags": [
     "opensource",

@@ -2,7 +2,7 @@
   "title": "AWS: Building a LAMP instance on Amazon Linux",
   "description": "AWS: Building a LAMP instance on Amazon Linux",
   "date": "2011-12-14",
-  "url": "aws-building-a-lamp-instance",
+  "url": "aws-building-a-lamp-instance/",
   "type": "post",
   "tags": [
     "aws"

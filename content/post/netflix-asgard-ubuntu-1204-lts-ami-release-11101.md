@@ -2,7 +2,7 @@
   "title": "Netflix Asgard Ubuntu 12.04 LTS ami (Release 1.1.1.01)",
   "description": "Netflix Asgard Ubuntu 12.04 LTS ami (Release 1.1.1.01)",
   "date": "2013-05-19",
-  "url": "netflix-asgard-ubuntu-1204-lts-ami-release-11101",
+  "url": "netflix-asgard-ubuntu-1204-lts-ami-release-11101/",
   "type": "post",
   "tags": [
     "aws",

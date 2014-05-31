@@ -2,7 +2,7 @@
   "title": "MeetingBurner: Web meetings with Linux support!",
   "description": "MeetingBurner: Web meetings with Linux support!",
   "date": "2013-12-17",
-  "url": "meetingburner-web-meetings-with-linux-support",
+  "url": "meetingburner-web-meetings-with-linux-support/",
   "type": "post",
   "draft": true,
   "tags": [

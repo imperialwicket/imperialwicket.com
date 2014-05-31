@@ -2,7 +2,7 @@
   "title": "Chicago Boss: My CB deployment strategy",
   "description": "Chicago Boss: My CB deployment strategy",
   "date": "2012-07-12",
-  "url": "chicago-boss-my-cb-deployment-strategy",
+  "url": "chicago-boss-my-cb-deployment-strategy/",
   "type": "post",
   "tags": [
     "aws",

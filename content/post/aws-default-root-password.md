@@ -2,7 +2,7 @@
   "title": "AWS: Default root password",
   "description": "AWS: Default root password",
   "date": "2011-01-11",
-  "url": "aws-default-root-password",
+  "url": "aws-default-root-password/",
   "type": "post",
   "tags": [
     "aws"

@@ -2,7 +2,7 @@
   "title": "How about some open source days?",
   "description": "How about some open source days?",
   "date": "2011-12-29",
-  "url": "how-about-some-open-source-days",
+  "url": "how-about-some-open-source-days/",
   "type": "post",
   "tags": [
     "opensource",

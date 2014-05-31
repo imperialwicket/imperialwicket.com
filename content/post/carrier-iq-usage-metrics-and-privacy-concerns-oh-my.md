@@ -2,7 +2,7 @@
   "title": "Carrier IQ, Usage metrics, and Privacy Concerns - Oh my!",
   "description": "Carrier IQ, Usage metrics, and Privacy Concerns - Oh my!",
   "date": "2011-12-01",
-  "url": "carrier-iq-usage-metrics-and-privacy-concerns-oh-my",
+  "url": "carrier-iq-usage-metrics-and-privacy-concerns-oh-my/",
   "type": "post",
   "tags": [
     "security",

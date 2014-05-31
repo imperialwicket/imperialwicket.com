@@ -2,7 +2,7 @@
   "title": "AWS:  Configuring a Geo-spatial stack in Amazon Linux",
   "description": "AWS:  Configuring a Geo-spatial stack in Amazon Linux",
   "date": "2010-12-26",
-  "url": "aws-configuring-a-geo-spatial-stack-in-amazon-linux",
+  "url": "aws-configuring-a-geo-spatial-stack-in-amazon-linux/",
   "type": "post",
   "tags": [
     "aws",

@@ -2,7 +2,7 @@
   "title": "Searching for a Linux machine (Vendors)",
   "description": "Searching for a Linux machine (Vendors)",
   "date": "2011-07-15",
-  "url": "searching-for-a-linux-machine-vendors",
+  "url": "searching-for-a-linux-machine-vendors/",
   "type": "post",
   "tags": [
     "opensource",

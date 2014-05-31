@@ -2,7 +2,7 @@
   "title": "x86_64 (64 bit) Thunderbird and Firefox from Mozilla",
   "description": "x86_64 (64 bit) Thunderbird and Firefox from Mozilla",
   "date": "2011-08-05",
-  "url": "x86_64-64-bit-thunderbird-and-firefox-from-mozilla",
+  "url": "x86_64-64-bit-thunderbird-and-firefox-from-mozilla/",
   "type": "post",
   "tags": [
     "opensource",

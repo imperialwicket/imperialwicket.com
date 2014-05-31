@@ -2,7 +2,7 @@
   "title": "The Mob",
   "description": "The Mob",
   "date": "2012-09-04",
-  "url": "the-mob",
+  "url": "the-mob/",
   "type": "post",
   "tags": [
     "aws",

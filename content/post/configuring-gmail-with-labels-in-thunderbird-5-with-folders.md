@@ -2,7 +2,7 @@
   "title": "Configuring GMail (with labels) in Thunderbird 5 (with folders)",
   "description": "Configuring GMail (with labels) in Thunderbird 5 (with folders)",
   "date": "2011-08-09",
-  "url": "configuring-gmail-with-labels-in-thunderbird-5-with-folders",
+  "url": "configuring-gmail-with-labels-in-thunderbird-5-with-folders/",
   "type": "post",
   "tags": [
     "opensource",

@@ -2,7 +2,7 @@
   "title": "The Mob 0.8.01 release notes",
   "description": "The Mob 0.8.01 release notes",
   "date": "2012-09-04",
-  "url": "the-mob-0801-release-notes",
+  "url": "the-mob-0801-release-notes/",
   "type": "post",
   "tags": [
     "aws",

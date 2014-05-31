@@ -2,7 +2,7 @@
   "title": "Habari = WordPress x 1337",
   "description": "Habari = WordPress x 1337",
   "date": "2010-10-16",
-  "url": "habari-wordpress-x-1337",
+  "url": "habari-wordpress-x-1337/",
   "type": "post",
   "tags": [
     "habari"

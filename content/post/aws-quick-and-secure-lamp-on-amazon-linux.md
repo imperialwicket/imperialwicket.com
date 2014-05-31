@@ -2,7 +2,7 @@
   "title": "AWS: Quick and secure LAMP on Amazon Linux",
   "description": "AWS: Quick and secure LAMP on Amazon Linux",
   "date": "2011-12-12",
-  "url": "aws-quick-and-secure-lamp-on-amazon-linux",
+  "url": "aws-quick-and-secure-lamp-on-amazon-linux/",
   "type": "post",
   "tags": [
     "aws"

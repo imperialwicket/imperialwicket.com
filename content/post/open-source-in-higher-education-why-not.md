@@ -2,7 +2,7 @@
   "title": "Open source in higher education - why not?",
   "description": "Open source in higher education - why not?",
   "date": "2010-11-08",
-  "url": "open-source-in-higher-education-why-not",
+  "url": "open-source-in-higher-education-why-not/",
   "type": "post",
   "tags": [
     "opensource",

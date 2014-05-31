@@ -2,7 +2,7 @@
   "title": "I'm not afraid of the Oracle",
   "description": "I'm not afraid of the Oracle",
   "date": "2011-01-27",
-  "url": "im-not-afraid-of-the-oracle",
+  "url": "im-not-afraid-of-the-oracle/",
   "type": "post",
   "tags": [
     "opensource"

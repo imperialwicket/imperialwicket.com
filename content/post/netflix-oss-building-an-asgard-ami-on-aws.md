@@ -2,7 +2,7 @@
   "title": "Netflix OSS: Building an Asgard AMI on AWS",
   "description": "Netflix OSS: Building an Asgard AMI on AWS",
   "date": "2013-07-16",
-  "url": "netflix-oss-building-an-asgard-ami-on-aws",
+  "url": "netflix-oss-building-an-asgard-ami-on-aws/",
   "type": "post",
   "tags": [
     "aws",

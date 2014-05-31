@@ -2,7 +2,7 @@
   "title": "About",
   "description": "~/.profile",
   "date": "2010-10-16",
-  "url": "about",
+  "url": "about/",
   "type": "about",
   "tags": [],
   "aliases":["/-profile"]

@@ -2,7 +2,7 @@
   "title": "ELK (Elasticsearch, Logstash, Kibana) index restore with Hubot",
   "description": "ELK (Elasticsearch, Logstash, Kibana) index restore with Hubot",
   "date": "2014-04-18",
-  "url": "elk-elasticsearch-logstash-kibana-index-restore-with-hubot",
+  "url": "elk-elasticsearch-logstash-kibana-index-restore-with-hubot/",
   "type": "post",
   "tags": [
     "logstash",

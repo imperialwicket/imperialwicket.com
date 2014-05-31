@@ -2,7 +2,7 @@
   "title": "My New Hiring Technique",
   "description": "My New Hiring Technique",
   "date": "2010-12-05",
-  "url": "my-new-hiring-technique",
+  "url": "my-new-hiring-technique/",
   "type": "post",
   "tags": [
     "education"

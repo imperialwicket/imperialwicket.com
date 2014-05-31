@@ -2,7 +2,7 @@
   "title": "MySQL Workbench: Server Administration connection error",
   "description": "MySQL Workbench: Server Administration connection error",
   "date": "2011-11-23",
-  "url": "mysql-workbench-server-administration-connection-error",
+  "url": "mysql-workbench-server-administration-connection-error/",
   "type": "post",
   "tags": [
     "mysql"

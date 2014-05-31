@@ -2,7 +2,7 @@
   "title": "Getting started with Zotonic",
   "description": "Getting started with Zotonic",
   "date": "2012-05-26",
-  "url": "getting-started-with-zotonic",
+  "url": "getting-started-with-zotonic/",
   "type": "post",
   "tags": [
     "postgresql",

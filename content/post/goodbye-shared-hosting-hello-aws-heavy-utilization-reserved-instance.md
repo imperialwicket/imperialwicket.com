@@ -2,7 +2,7 @@
   "title": "Goodbye shared hosting; Hello AWS Heavy Utilization Reserved Instance",
   "description": "Goodbye shared hosting; Hello AWS Heavy Utilization Reserved Instance",
   "date": "2011-12-02",
-  "url": "goodbye-shared-hosting-hello-aws-heavy-utilization-reserved-instance",
+  "url": "goodbye-shared-hosting-hello-aws-heavy-utilization-reserved-instance/",
   "type": "post",
   "tags": [
     "aws",

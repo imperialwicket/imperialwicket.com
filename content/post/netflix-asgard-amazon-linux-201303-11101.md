@@ -2,7 +2,7 @@
   "title": "Netflix Asgard Amazon Linux 201303 (Release 1.1.1.01)",
   "description": "Netflix Asgard Amazon Linux 201303 (Release 1.1.1.01)",
   "date": "2013-05-22",
-  "url": "netflix-asgard-amazon-linux-201303-11101",
+  "url": "netflix-asgard-amazon-linux-201303-11101/",
   "type": "post",
   "tags": [
     "aws",

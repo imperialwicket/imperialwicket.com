@@ -2,7 +2,7 @@
   "title": "The real anti-Firesheep",
   "description": "The real anti-Firesheep",
   "date": "2010-11-16",
-  "url": "the-real-anti-firesheep",
+  "url": "the-real-anti-firesheep/",
   "type": "post",
   "tags": [
     "security"

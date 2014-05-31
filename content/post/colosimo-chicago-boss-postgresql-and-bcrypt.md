@@ -2,7 +2,7 @@
   "title": "Colosimo: Chicago Boss, PostgreSQL, and bcrypt",
   "description": "Colosimo: Chicago Boss, PostgreSQL, and bcrypt",
   "date": "2012-06-10",
-  "url": "colosimo-chicago-boss-postgresql-and-bcrypt",
+  "url": "colosimo-chicago-boss-postgresql-and-bcrypt/",
   "type": "post",
   "tags": [
     "postgresql",

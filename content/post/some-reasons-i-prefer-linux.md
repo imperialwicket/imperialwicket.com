@@ -2,7 +2,7 @@
   "title": "Some Reasons I Prefer Linux",
   "description": "Some Reasons I Prefer Linux",
   "date": "2011-02-07",
-  "url": "some-reasons-i-prefer-linux",
+  "url": "some-reasons-i-prefer-linux/",
   "type": "post",
   "tags": [
     "linux",

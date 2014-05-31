@@ -2,7 +2,7 @@
   "title": "Asgard and Hubot: Simplified AMI deployment to AWS",
   "description": "Asgard and Hubot: Simplified AMI deployment to AWS",
   "date": "2013-09-02",
-  "url": "asgard-and-hubot-simplified-ami-deployment-to-aws",
+  "url": "asgard-and-hubot-simplified-ami-deployment-to-aws/",
   "type": "post",
   "tags": [
     "aws",

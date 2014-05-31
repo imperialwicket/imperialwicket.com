@@ -2,7 +2,7 @@
   "title": "QuickBooks Online password fails",
   "description": "QuickBooks Online password fails",
   "date": "2011-08-01",
-  "url": "quickbooks-online-password-fails",
+  "url": "quickbooks-online-password-fails/",
   "type": "post",
   "tags": [
     "security",

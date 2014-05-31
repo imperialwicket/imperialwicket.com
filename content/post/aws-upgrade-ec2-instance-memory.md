@@ -2,7 +2,7 @@
   "title": "AWS: Upgrade EC2 instance memory",
   "description": "AWS: Upgrade EC2 instance memory",
   "date": "2010-12-05",
-  "url": "aws-upgrade-ec2-instance-memory",
+  "url": "aws-upgrade-ec2-instance-memory/",
   "type": "post",
   "tags": [
     "aws"

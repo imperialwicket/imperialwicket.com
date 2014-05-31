@@ -2,7 +2,7 @@
   "title": "How to win a croquet match: the 3 rules",
   "description": "How to win a croquet match: the 3 rules",
   "date": "2010-10-27",
-  "url": "how-to-win-a-croquet-match-the-3-rules",
+  "url": "how-to-win-a-croquet-match-the-3-rules/",
   "type": "post",
   "tags": [
     "croquet"

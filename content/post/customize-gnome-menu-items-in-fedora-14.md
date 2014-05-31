@@ -2,7 +2,7 @@
   "title": "Customize Gnome Menu Items in Fedora 14",
   "description": "Customize Gnome Menu Items in Fedora 14",
   "date": "2011-02-05",
-  "url": "customize-gnome-menu-items-in-fedora-14",
+  "url": "customize-gnome-menu-items-in-fedora-14/",
   "type": "post",
   "tags": [
     "linux",

@@ -2,7 +2,7 @@
   "title": "The Over-bearing and Intellectually Stunted Managers of FOSS",
   "description": "The Over-bearing and Intellectually Stunted Managers of FOSS",
   "date": "2011-02-02",
-  "url": "the-over-bearing-and-intellectually-stunted-managers-of-foss",
+  "url": "the-over-bearing-and-intellectually-stunted-managers-of-foss/",
   "type": "post",
   "tags": [
     "opensource",

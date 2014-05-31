@@ -2,7 +2,7 @@
   "title": "Standing in the cube",
   "description": "Standing in the cube",
   "date": "2011-04-12",
-  "url": "standing-in-the-cube",
+  "url": "standing-in-the-cube/",
   "type": "post",
   "tags": [
     "dev"

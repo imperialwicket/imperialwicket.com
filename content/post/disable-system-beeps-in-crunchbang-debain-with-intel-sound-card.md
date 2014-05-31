@@ -2,7 +2,7 @@
   "title": "Disable system beeps in CrunchBang (Debain) with Intel sound card",
   "description": "Disable system beeps in CrunchBang (Debain) with Intel sound card",
   "date": "2012-04-22",
-  "url": "disable-system-beeps-in-crunchbang-debain-with-intel-sound-card",
+  "url": "disable-system-beeps-in-crunchbang-debain-with-intel-sound-card/",
   "type": "post",
   "tags": [
     "linux",

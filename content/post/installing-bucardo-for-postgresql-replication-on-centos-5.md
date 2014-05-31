@@ -2,7 +2,7 @@
   "title": "Installing Bucardo for PostgreSQL replication on CentOS 5",
   "description": "Installing Bucardo for PostgreSQL replication on CentOS 5",
   "date": "2011-06-29",
-  "url": "installing-bucardo-for-postgresql-replication-on-centos-5",
+  "url": "installing-bucardo-for-postgresql-replication-on-centos-5/",
   "type": "post",
   "tags": [
     "postgresql",

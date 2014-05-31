@@ -2,7 +2,7 @@
   "title": "Samsung Captivate software update (JH7)",
   "description": "Samsung Captivate software update (JH7)",
   "date": "2010-12-08",
-  "url": "samsung-captivate-software-update-jh7",
+  "url": "samsung-captivate-software-update-jh7/",
   "type": "post",
   "tags": [
     "android",

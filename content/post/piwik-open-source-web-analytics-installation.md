@@ -2,7 +2,7 @@
   "title": "Piwik (Open Source Web Analytics) Installation",
   "description": "Piwik (Open Source Web Analytics) Installation",
   "date": "2010-10-17",
-  "url": "piwik-open-source-web-analytics-installation",
+  "url": "piwik-open-source-web-analytics-installation/",
   "type": "post",
   "tags": [
     "habari",

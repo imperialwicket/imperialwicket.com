@@ -2,7 +2,7 @@
   "title": "My Summer Infant video monitor experience (fail)",
   "description": "My Summer Infant video monitor experience (fail)",
   "date": "2011-12-15",
-  "url": "my-summer-infant-video-monitor-experience",
+  "url": "my-summer-infant-video-monitor-experience/",
   "type": "post",
   "tags": []
 }

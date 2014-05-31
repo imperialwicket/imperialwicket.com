@@ -2,7 +2,7 @@
   "title": "Joomla! launches a help wanted forum",
   "description": "Joomla! launches a help wanted forum",
   "date": "2011-06-22",
-  "url": "joomla-launches-a-help-wanted-forum",
+  "url": "joomla-launches-a-help-wanted-forum/",
   "type": "post",
   "tags": [
     "opensource",

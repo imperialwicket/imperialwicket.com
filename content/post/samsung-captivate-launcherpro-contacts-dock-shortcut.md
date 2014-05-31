@@ -2,7 +2,7 @@
   "title": "Samsung Captivate: LauncherPro Contacts dock shortcut",
   "description": "Samsung Captivate: LauncherPro Contacts dock shortcut",
   "date": "2011-01-11",
-  "url": "samsung-captivate-launcherpro-contacts-dock-shortcut",
+  "url": "samsung-captivate-launcherpro-contacts-dock-shortcut/",
   "type": "post",
   "tags": [
     "android",

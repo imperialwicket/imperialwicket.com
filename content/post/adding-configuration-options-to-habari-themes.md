@@ -2,7 +2,7 @@
   "title": "Adding Configuration Options to Habari Themes",
   "description": "Adding Configuration Options to Habari Themes",
   "date": "2010-10-23",
-  "url": "adding-configuration-options-to-habari-themes",
+  "url": "adding-configuration-options-to-habari-themes/",
   "type": "post",
   "tags": [
     "habari"

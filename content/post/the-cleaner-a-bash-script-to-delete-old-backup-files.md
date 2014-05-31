@@ -2,7 +2,7 @@
   "title": "The Cleaner: A Bash Script to Delete Old Backup Files",
   "description": "The Cleaner: A Bash Script to Delete Old Backup Files",
   "date": "2011-02-11",
-  "url": "the-cleaner-a-bash-script-to-delete-old-backup-files",
+  "url": "the-cleaner-a-bash-script-to-delete-old-backup-files/",
   "type": "post",
   "tags": [
     "linux",

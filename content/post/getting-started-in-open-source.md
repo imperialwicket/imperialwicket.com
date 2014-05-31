@@ -2,7 +2,7 @@
   "title": "Getting Started In Open Source",
   "description": "Getting Started In Open Source",
   "date": "2011-01-01",
-  "url": "getting-started-in-open-source",
+  "url": "getting-started-in-open-source/",
   "type": "post",
   "tags": [
     "teachingopensource"

@@ -2,7 +2,7 @@
   "title": "Samsung Captivate: Add a Google account",
   "description": "Samsung Captivate: Add a Google account",
   "date": "2011-06-30",
-  "url": "samsung-captivate-add-a-google-account",
+  "url": "samsung-captivate-add-a-google-account/",
   "type": "post",
   "tags": [
     "captivate"

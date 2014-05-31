@@ -2,7 +2,7 @@
   "title": "Install Humble Indie Bundle 32 bit games on Fedora 14 (x86_64)",
   "description": "Install Humble Indie Bundle 32 bit games on Fedora 14 (x86_64)",
   "date": "2011-07-28",
-  "url": "install-humble-indie-bundle-32-bit-games-on-fedora-14-x86_64",
+  "url": "install-humble-indie-bundle-32-bit-games-on-fedora-14-x86_64/",
   "type": "post",
   "tags": [
     "linux"

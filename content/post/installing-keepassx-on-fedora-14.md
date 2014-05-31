@@ -2,7 +2,7 @@
   "title": "Installing KeePassX on Fedora 14",
   "description": "Installing KeePassX on Fedora 14",
   "date": "2011-02-08",
-  "url": "installing-keepassx-on-fedora-14",
+  "url": "installing-keepassx-on-fedora-14/",
   "type": "post",
   "tags": [
     "keepass",
