@@ -1,6 +1,6 @@
 ---
-baseurl: "/"
+baseurl: "http://imperialwicket.com"
 title: "imperialwicket"
-canonifyurls: true
+canonifyurls: false
 ---
 
