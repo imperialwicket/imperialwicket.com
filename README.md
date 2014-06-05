@@ -22,7 +22,7 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 if [[ "$branch" == "master" ]]; then
   hugo
   echo "Syncing public/* with s3://$bucket/$prefix."
-  s3cmd --acl-public --delete-removed sync public/* s3://$bucket/$prefix
+  s3cmd --acl-public --delete-removed --no-progress sync public/* s3://$bucket/$prefix
   echo -e "\nUpdated s3://$bucket/$prefix."
 else
   echo "*** s3://$bucket/$prefix only syncs when master branch is updated! ***"
