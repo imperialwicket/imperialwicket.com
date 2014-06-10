@@ -6,7 +6,6 @@
   "type": "post",
   "tags": []
 }
-# Automatically deploy Hugo to S3 and Cloudfront
 
 This could be better automated, but for now, it was easy enough to set up and it works well for my needs.
 
