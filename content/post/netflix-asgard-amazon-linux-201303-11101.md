@@ -10,7 +10,7 @@
     "netflix"
   ]
 }
-*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tag/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
+*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tags/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
 
 ### Netflix OSS: Asgard Amazon Linux (1.1.1.01)
 

@@ -21,7 +21,7 @@ I wrote about similar ["Technical Requirements" frustrations in the context of B
 
 #### Reaction 2: Password strength broken?
 
-Hmm.  So I entered my ([KeePassX](http://imperialwicket.com/tag/keepass) randomly generated) password on the account creation screen.  Normally, I do not even look at these passwords, I just generate it, save the KeePass database, and go about copying/pasting the password from one place to another.  But when I start to get weird behavior, I pay a little more attention (this way my rant-y email to customer support can be more targeted).
+Hmm.  So I entered my ([KeePassX](http://imperialwicket.com/tags/keepass) randomly generated) password on the account creation screen.  Normally, I do not even look at these passwords, I just generate it, save the KeePass database, and go about copying/pasting the password from one place to another.  But when I start to get weird behavior, I pay a little more attention (this way my rant-y email to customer support can be more targeted).
 
 So Here was my first password attempt:
 

@@ -10,7 +10,7 @@
     "netflix"
   ]
 }
-*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tag/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
+*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tags/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
 
 Updated Asgard AMIs are available for Ubuntu 12.04.2LTS and Amazon Linux 2013.03\. These are minor updates, and while I'm deprecating the original releases, there's no reason to upgrade if you are using the previous AMI with no issues.
 

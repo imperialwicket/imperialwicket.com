@@ -252,6 +252,6 @@ You made it; welcome to the cloud - and all in just six easy steps.
 
 Remember to use consistent names for everything (not just IAM). Name instances consistently, AMIs, ELB, ASG, RDS. Anything AWS provides that you can abbreviate should be named consistently. Use tags, userdata, and metadata relentlessly. Tags are a great way to handle rollbacks when they need to happen
 
-Think there should be an easier way? [Netflix OSS](http://netflix.github.io/#repo) offers a lot of tools to automate these procedures. [Asgard](https://github.com/Netflix/asgard) is a good place to start; I even made a few [Asgard public AMIs](http://imperialwicket.com/tag/asgard) with the whole package pre-installed for you. 
+Think there should be an easier way? [Netflix OSS](http://netflix.github.io/#repo) offers a lot of tools to automate these procedures. [Asgard](https://github.com/Netflix/asgard) is a good place to start; I even made a few [Asgard public AMIs](http://imperialwicket.com/tags/asgard) with the whole package pre-installed for you. 
 
 If you made it this far, congratulations. Your next challenge is to look over the [AWS architecture OFA used](http://awsofa.info/) until it makes sense. Work on Multi-AZ deployments and get [monkey-proof](https://github.com/Netflix/SimianArmy) (beating the chaos monkey is a nice challenge). Happy cloud-wrangling.

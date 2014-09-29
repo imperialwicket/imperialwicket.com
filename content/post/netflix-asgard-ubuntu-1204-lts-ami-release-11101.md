@@ -10,7 +10,7 @@
     "netflix"
   ]
 }
-*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tag/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
+*** UPDATE: Be sure to [check for updated AMIs](http://imperialwicket.com/tags/asgard). Some updates include newer Asgard versions, others include optimizations and enhancements to the AMI itself. ***
 
 I am creating a number of Amazon Machine Images that include pre-configured [Netflix open source software.](http://netflix.github.io/) Asgard is the first target, and this is the first release. I plan to support at least Ubuntu and Amazon Linux; ideally CentOS and Debian will also have prepared AMIs.
 

@@ -20,7 +20,7 @@
 
 ### Intro
 
-I'm going to build an [Asgard](https://github.com/Netflix/asgard) instance from a baseline Ubuntu LTS, if you want to skip directly to a functioning Asgard AMI, [grab my latest Asgard AMIs here](http://imperialwicket.com/tag/asgard). 
+I'm going to build an [Asgard](https://github.com/Netflix/asgard) instance from a baseline Ubuntu LTS, if you want to skip directly to a functioning Asgard AMI, [grab my latest Asgard AMIs here](http://imperialwicket.com/tags/asgard). 
 
 The general technique for building our own Asgard instance is:
 
@@ -71,6 +71,6 @@ Once you see the Asgard initialize page, provide your Secret Key and AWS Account
 
 ### Enhancements and next steps
 
-This is a very bare installation. You probably want to create at least one user, so that you aren't always connecting as 'ubuntu'. You should also upload a public key, so you are not relying on the AWS Key Pair. Once those are in place, some additonal configuration options might appeal to you. I prefer to proxy to tomcat via Apache/Nginx, configure SSL, and use basic auth. This way I can comfortably access data from potentially public networks without worrying too much. The [pre-made AMIs](http://imperialwicket.com/tag/asgard) I mentioned above have this implemented already, and I'll aim to add a more full-featured manifest in the future.
+This is a very bare installation. You probably want to create at least one user, so that you aren't always connecting as 'ubuntu'. You should also upload a public key, so you are not relying on the AWS Key Pair. Once those are in place, some additonal configuration options might appeal to you. I prefer to proxy to tomcat via Apache/Nginx, configure SSL, and use basic auth. This way I can comfortably access data from potentially public networks without worrying too much. The [pre-made AMIs](http://imperialwicket.com/tags/asgard) I mentioned above have this implemented already, and I'll aim to add a more full-featured manifest in the future.
 
 Before enhancing this Asgard instance, I want to start building a service with the already functional Asgard. In the next post I will detail using Asgard to launch and control specific AWS resources for a sample use case.
