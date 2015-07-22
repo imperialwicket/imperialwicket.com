@@ -10,7 +10,7 @@
 
 
 Asgard IAM profile:
-under 2048 (autoscaling:* and ec2:* instead of specifics)
+This is the under 2048 version (autoscaling:* and ec2:* instead of specifics)
 {
     "Statement": [
         {
