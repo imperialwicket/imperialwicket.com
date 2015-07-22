@@ -2,7 +2,7 @@
   "title": "Immutable Infrastructure for Bootstrappers",
   "description": "Immutable Infrastructure for Bootstrappers",
   "date": "2015-07-22",
-  "url": "Immutable Infrastructure for Bootstrappers/",
+  "url": "immutable-infrastructure-for-bootstrappers/",
   "type": "post",
   "tags": ["immutable infrastructure","aws","packer","asgard","vagrant"]
 }
