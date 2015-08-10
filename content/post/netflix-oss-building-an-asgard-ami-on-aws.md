@@ -10,6 +10,8 @@
     "netflix"
   ]
 }
+Update (2015-08-10): Lately I have been using a very basic Vagrant/Virtualbox config for Asgard needs. This config is easily applied to an Amazon instance, and you might be interested in the details of [Using Asgard in a virtual machine](/immutable-infrastructure-for-bootstrappers-asgard-and-aws).
+
 ### Prerequisites
 
 *   AWS Account

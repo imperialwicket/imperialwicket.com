@@ -10,6 +10,8 @@
     "netflix"
   ]
 }
+Update (2015-08-10): Lately I have been using a very basic Vagrant/Virtualbox config for Asgard needs. This config is easily applied to an Amazon instance, and you might be interested in the details of [Using Asgard in a virtual machine](/immutable-infrastructure-for-bootstrappers-asgard-and-aws).
+
 Updated Asgard 1.2 AMIs are available for Ubuntu 12.04.2LTS and Amazon Linux 2013.03\. These AMIs include system updates as well as the 1.2 Asgard war.
 
 These AMIs default to HTTPS only (so you're security group needs at least 443 access from your IP; add port 22 if you want to make changes via SSH), and use basic authentication to protect access. Basic authentication is configured with user 'netflix' and password 'netflix'. Add your IAM creds, and let Asgard do the work! Note that micro instances might have some trouble running this. Connect over SSH as user 'netflix' using your configured keypair. More details about the instance config are available in an [earlier post](http://imperialwicket.com/netflix-asgard-ubuntu-1204-lts-ami-release-11101) under Getting Started.

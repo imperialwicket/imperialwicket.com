@@ -11,7 +11,7 @@ This post is part of series on my implementation of immutable infrastructure for
 
  - [Introduction](/immutable-infrastructure-for-bootstrappers/)
  - [An immutable infrastructure virtual machine](/immutable-infrastructure-for-bootstrappers-asgard-aws) 
- - Basic AMI generation with Packer
+ - [Basic AMI generation with Packer](/immutable-infrastructure-for-bootstrappers-building-amis-with-packer)
  - Deploying your AMI with Asgard
  - Releases, automation, and next steps
 

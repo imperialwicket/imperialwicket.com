@@ -70,7 +70,7 @@ This is getting cumbersome, so I plan to break it into 4 or 5 posts. They will l
 
  - [Introduction](/immutable-infrastructure-for-bootstrappers/)
  - [An immutable infrastructure virtual machine](/immutable-infrastructure-for-bootstrappers-asgard-and-aws/)
- - Basic AMI generation with Packer
+ - [Basic AMI generation with Packer](/immutable-infrastructure-for-bootstrappers-building-amis-with-packer)
  - Deploying your AMI with Asgard
  - Releases, automation, and next steps
 
