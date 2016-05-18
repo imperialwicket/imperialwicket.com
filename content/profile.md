@@ -7,11 +7,10 @@
   "tags": [],
   "aliases":["/-profile"]
 }
-![faces.jpg](/files/faces.jpg)
 
-I am Nicholas Whittier, and this is my blog.  I describe myself as a DIYer, a Linux fan-boy, an opensource enthusiast, and a lover of lawn sports.  The internet has led me to commonly over-investigate most things.  Many times I spend weeks trying to determine the most appropriate product for my needs, only to decide that I did not need that product from the start.  I will let [xkcd: DFS](http://xkcd.com/761/) offer a non-commercial explanation.
+I am Nicholas Whittier, and this is my blog.  I describe myself as a DIYer, a Linux fan-boy, an open source enthusiast, and a lover of lawn sports. I read the Great Books of Western Civilization, and I think I understood a couple of them.  
 
-Lately, I spend much of my time cloud-wrangling, mostly in the AWS. 
+Lately, I spend much of my time cloud-wrangling, mostly in the AWS. I like immutable infrastructure and ChatOps.
 
 
 - [GitHub](https://github.com/imperialwicket)
