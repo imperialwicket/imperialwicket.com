@@ -70,7 +70,7 @@ This adds an empty geometry column to the public.my_data table, with column name
 This function always ends up a little cumbersome because of the string concatenation, but generating points from lat/lon values usually goes something like this:
 
 <pre>
-UPDATE public.my_data SET the_geom = geometryfromtext('POINT('||latitude||' '||longitude||')',4326);
+UPDATE public.my_data SET the_geom = ST_GeomFromText('POINT('||longitude||' '||latitude||')',4326);
 </pre>
 
 In this case, the geometryfromtext(text) function would work well, but I usually default to the geometryfromtext(text,spatial-projection) version of the function.  It never hurts to be explicit.
