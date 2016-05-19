@@ -72,6 +72,7 @@ This function always ends up a little cumbersome because of the string concatena
 <pre>
 UPDATE public.my_data SET the_geom = ST_GeomFromText('POINT('||longitude||' '||latitude||')',4326);
 </pre>
+** Thanks to mstuyts for the updated function here! **
 
 In this case, the geometryfromtext(text) function would work well, but I usually default to the geometryfromtext(text,spatial-projection) version of the function.  It never hurts to be explicit.
 
