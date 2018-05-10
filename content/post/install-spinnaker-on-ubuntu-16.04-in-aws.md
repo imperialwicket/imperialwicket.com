@@ -11,30 +11,32 @@
 
 I encountered a lot of issues installing [Spinnaker](https://www.spinnaker.io/) (1.6.1 and 1.7.x) on Ubuntu in Amazon Web Services. This post is the collection of steps I took to get a demo server with a working Spinnaker and Jenkins installation. I am going to use [GitHub](https://github.com/) and the [GitHub Branch Source Plugin](https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/index.html#github-branch-source) from CloudBees in order to trigger my build/bakes. My target flow for the demo is:
 
-1. Push a branch/create a pull request with changes - triggers 
-2. Jenkins tests integrated in the project repo to certify merge
-3. Merge the pull request to master - triggers
-4. Jenkins tests integrated in the project repo and builds a Debian package
-5. Once the Debian package is built - triggers
-6. Simple Bake and Deploy pipeline in Spinnaker
+1. Push a branch/create a pull request with changes (human action)
+2. Jenkins runs a pipeline via Jenkinsfile to test updates and certify merge
+3. Merge the pull request to master (human action)
+4. Jenkins runs a pipeline via Jenkinsfile to test updates and builds a Debian package
+6. Spinnaker runs a simple Bake and Deploy (red/black) pipeline
 
-This implementation gives you an easy 10-15 minute commit through deploy demonstration to really open discussions about Spinnaker as a deployment platform for your project or organization. What this installation requires:
+This implementation is opinionated and very insecure, but it gives you an easy 10-15 minute commit through deploy demonstration to really open discussions about Spinnaker as a deployment platform for your project or organization. 
 
-* AWS account - I recommend a clean account for this demo. If you are using an existing account try to run things in an alternative region or a unique vpc at the very least. The server necessary to run this is not small, and will likely cost around $100 per month if you leave it running 24/7. The aws cli tools can be handy, but shouldn't be a hard requirement.
+
+### This demo requires:
+
+* AWS account - I recommend a clean account for this demo. If you are using an existing account try to run things in an alternative region or a unique vpc. A reasonable server is necessary to run Spinnaker and Jenkins. It will likely cost around $100 per month if you leave it and the demo server running 24/7. The aws cli tools are helpful, but I will reference the AWS mgmt console.
 * GitHub account
 * Git repository that includes test script(s) and a build script that results in a Debian package.
 * Some DNS control to point a CNAME at your EC2 instance (or familiarity to manage it with hosts files).
 
 
-## What this is NOT:
+### What this is NOT:
 * This is NOT Production appropriate - I skip certificates, authentication, and authorization. I also skip load balancing and barely touch DNS. Do NOT use this in production.
 * This is NOT FREE - This will cost money. Not a lot, but more than your average hobby server.
-* This is NOT a container/Kubernetes demo. [Those exist](https://www.spinnaker.io/setup/install/providers/kubernetes/) and k8s is great, but adding containers to Spinnaker made it a harder sell for my organization.
+* This is NOT a container/Kubernetes demo. [Those exist](https://www.spinnaker.io/setup/install/providers/kubernetes/) and k8s is great, but for organizations who are not already using containers they simply complicate matters.
 
 
 ## [spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo)
 
-Spinnaker-demo is a sample repo that includes a Jenkinsfile (with some master branch specific work), includes a few simple test files, and builds a Debian package that is designed to work on a vanilla Ubuntu server. Spinnaker-demo is really two html files and a bunch of test and packaging logic. This makes it easy for any developers or interested parties to make simple changes to an html file and watch their changes go live.
+[Spinnaker-demo](https://github.com/imperialwicket/spinnaker-demo) is a sample repo that includes a Jenkinsfile (with some master branch specific work), includes a few simple test files, and builds a Debian package that is designed to work on a vanilla Ubuntu server. Spinnaker-demo is really two html files and a bunch of test and packaging logic. This makes it easy for any developers or interested parties to make simple changes to an html file and watch their changes go live.
 
 You can clone this repo or generate your own, but I think it is important that the demo application be simple so that version changes are apparent and updates are not a source of complication.
 
@@ -179,7 +181,7 @@ The spinnaker-assumed role must 'trust' the spinnaker user.
 
 I had success with an r4.large; an m5.xlarge or maybe m5.large should also work well. In the interest of not troubleshooting memory issues I would use something with at least 8GB of RAM.
 
-1. Got to the aws [EC2 instance launch wizard](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:)
+1. Go to the aws [EC2 instance launch wizard](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:)
 1. Launch an Ubuntu Server 16.04 LTS (HVM) instance (ami-4e79ed36 at time of writing)
 1. Choose instance type m5.xlarge (or your desired alternative)
 1. Launch into the spin-demo configured vpc/subnet (Not necessary, but simplifies things)
@@ -199,6 +201,7 @@ Once the instance is up, use your desired DNS solution to point some domain at t
 
 Connect to your server via ssh and install jenkins and some "build server" dependencies. I am installing from jenkins-ci.org and also installing the dependencies to support an s3 apt repository (deb-s3). I am moving Jenkins to port 8888 because Spinnaker and Jenkins will both try to use 8080.
 
+````
 wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 sudo apt-get update
@@ -210,12 +213,13 @@ sudo apt-get update
 sudo apt-get install build-essential ruby2.2 ruby2.2-dev zlib1g-dev liblzma-dev
 sudo gem install bundler dev-s3
  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+````
 
 ## Configure Jenkins
 
 I am installing a completely generic Jenkins and I am going to leave it protected only by the security group. Again, this is NOT suitable for production.
 
-1. Navigate to http://<spinnaker-instance-uri>:8888 and enter the initialAdminPassword we retreived from the server.
+1. Navigate to `http://<spinnaker-instance-uri>:8888` and enter the initialAdminPassword we retreived from the server.
 1. Choose "Install suggested plugins"
 1. Use the "Continue as admin" link to skip user generation
 1. Save and Finish
@@ -235,9 +239,9 @@ Once you have a repository, proceed to your [GitHub access tokens](https://githu
 
 1. Go to Jenkins and create a New Job
 1. Select GitHub Organiation
-1. Enter an item name 'github-<username>' (or whatever you prefer)
-1. In GitHub Organization, choose "Add" -> "github-<username>" to add your token for this job.
-1. Enter Password '<the-github-access-token>' and leave all other fields blank.
+1. Enter an item name `github-<username>` (or whatever you prefer)
+1. In GitHub Organization, choose "Add" -> `github-<username>` to add your token for this job.
+1. Enter Password `<the-github-access-token>` and leave all other fields blank.
 1. Add the credential and then choose the `/********` credentials option
 1. Ensure the Owner field is accurate (it defaults to the job name)
 1. To reduce the scan overhead, Add the optional GitHub Organization Behavior "Filter by name (with wildcards)" and only include 'spinnaker-demo' (or your desired repository).
@@ -248,7 +252,7 @@ Once you have a repository, proceed to your [GitHub access tokens](https://githu
 
 The scan should succeed and likely kick off a master branch test that will fail as it has no changes.
 
-Proceed to the repository settings/hooks page and add a Webhook pointing at http://<your uri>:8888/github-webhook/. All the other options can remain at their default.
+Proceed to the repository settings/hooks page and add a Webhook pointing at `http://<your uri>:8888/github-webhook/`. All the other options can remain at their default.
 
 ### GitHub master branch protection
 
@@ -342,7 +346,7 @@ I create an application with an ELB and a Security Group, and also a deploy pipe
 
 1. Use the "Actions" drop down on the Search or Applications tab to choose "Create Application"
 1. Enter Name "demo"
-1. Enter Owner Email <some email>
+1. Enter Owner Email `<some email>`
 1. Enter Repo Type "github"
 1. Enter Repo Project "spinnaker-demo"
 1. Enter Repo Name "spinnaker-demo"
@@ -373,13 +377,13 @@ Note that Spinnaker expects security groups to be present in AWS, even though th
 
 1. From the "demo" Application, select Infrastructure -> Load Balancers
 1. Use the plus button to add a Load Balancer
-1. Select "Classic (Legacy)" to create an ELB (it's easier and cheaper), and select "Configure Load Balancer"
+1. Select "Classic (Legacy)" to create an ELB (it's easier), and select "Configure Load Balancer"
 1. Choose your AWS account and the us-west-2 region.
 1. Enter Stack "web"
 1. Enter vpc subnet "demo"
 1. Choose Security Group "demo-elb"
-1. Enter Listener details External HTTP-80 and Internal HTTP-80
-1. Enter Health Check HTTP-80 /health (assuming you are using the spinnaker-demo repository)
+1. Enter Listener details External `HTTP 80` and Internal `HTTP 80`
+1. Enter Health Check `HTTP 80 /health` (assuming you are using the spinnaker-demo repository)
 1. Create your load balancer
 
 ![Create ELB 1](/files/spinnaker-create-elb.png)
@@ -402,11 +406,11 @@ I will create a simple Bake and Deploy pipeline, and we'll use some custom param
 1. Under Bake Configuration, enter Package name "spinnaker-demo"
 1. Under Bake Configuration, check Show Advanced Options
 1. Add Extended Attribute: 
-    1. Key="aws_subnet_id"
-    1. Value="subnet-<id for demo.internal.us-west-2a subnet>"
+    1. Key=`aws_subnet_id`
+    1. Value=`subnet-<id for demo.internal.us-west-2a subnet>`
 1. Add Extended Attribute:
-    1. Key="repository"
-    1. Value="http://<your apt repo bucket>.s3-website-us-west-2.amazonaws.com trusty main"
+    1. Key=`repository`
+    1. Value=`http://<your apt repo bucket>.s3-website-us-west-2.amazonaws.com trusty main`
 1. In the top pipeline display, select Add Staging and choose type Deploy
 1. Under Deploy Configuration, Select "Add server group"
 1. Use pre-populated Account, Region, and VPC Subnet
