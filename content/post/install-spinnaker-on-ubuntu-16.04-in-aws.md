@@ -4,9 +4,10 @@
   "date": "2018-05-09",
   "url": "install-spinnaker-on-ubuntu-16.04-in-aws/",
   "type": "post",
-  "tags": [AWS, spinnaker],
+  "tags": ["AWS", "spinnaker"],
   "draft": false
 }
+
 # Install Spinnaker on Ubuntu 16.04LTS in AWS
 
 I encountered a lot of issues installing [Spinnaker](https://www.spinnaker.io/) (1.6.1 and 1.7.x) on Ubuntu in Amazon Web Services. This post is the collection of steps I took to get a demo server with a working Spinnaker and Jenkins installation. I am going to use [GitHub](https://github.com/) and the [GitHub Branch Source Plugin](https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/index.html#github-branch-source) from CloudBees in order to trigger my build/bakes. My target flow for the demo is:
@@ -66,8 +67,11 @@ Login to AWS and proceed to [add a new IAM user](https://console.aws.amazon.com/
 1. Use Availability Zone 'us-west-2a'
 1. Enter Subnet name 'spin-demo.internal.us-west-2a'
 1. Create VPC
+
     ![Create VPC](/files/spinnaker-create-vpc.png)
-1. Add a Tag to your subnet indicating the purpose with Key:"immutable_metadata" and Value:"{"purpose": "spin demo"}
+
+1. Add a Tag to your subnet indicating the purpose with Key:`immutable_metadata` and Value:`{"purpose": "spin demo"}`
+
     ![Subnet Tags](/files/spinnaker-subnet-tags.png)
 
 
@@ -99,9 +103,10 @@ For whatever reason, the concept of "managing/managed" feels overly complicated 
 
 #### Create the AssumeRole policy
 
-1. Go to [IAM Create Policy](https://console.aws.amazon.com/iam/home?region=us-west-2#/policies$new)
-1. Replacing <YOUR_ACCOUNT_ID> with your AWS account id, select the JSON tab and enter:
-    ````
+* Go to [IAM Create Policy](https://console.aws.amazon.com/iam/home?region=us-west-2#/policies$new)
+* Replacing `<YOUR_ACCOUNT_ID>` with your AWS account id, select the JSON tab and enter:
+
+    ```
     {
         "Version": "2012-10-17",
         "Statement": [{
@@ -112,9 +117,10 @@ For whatever reason, the concept of "managing/managed" feels overly complicated 
             "Effect": "Allow"
         }]
     }
-    ````
-1. Review the policy and provide the name 'spinnakerAssumeRolePolicy'
-1. Create the policy
+    ```
+
+* Review the policy and provide the name 'spinnakerAssumeRolePolicy'
+* Create the policy
 
 #### Assign the spinnakerAssumeRolePolicy to the spinnaker IAM user
 
@@ -125,9 +131,10 @@ For whatever reason, the concept of "managing/managed" feels overly complicated 
 
 #### Create the PassRole policy
 
-1. Go to [IAM Create Policy](https://console.aws.amazon.com/iam/home?region=us-west-2#/policies$new)
-1. Replacing <YOUR_ACCOUNT_ID> with your AWS account id, select the JSON tab and enter:
-    ````
+* Go to [IAM Create Policy](https://console.aws.amazon.com/iam/home?region=us-west-2#/policies$new)
+* Replacing <YOUR_ACCOUNT_ID> with your AWS account id, select the JSON tab and enter:
+
+    ```
     {
         "Version": "2012-10-17",
         "Statement": [{
@@ -141,27 +148,29 @@ For whatever reason, the concept of "managing/managed" feels overly complicated 
             "Resource": "arn:aws:iam::<YOUR_ACCOUNT_ID>:role/spinnaker-launched"
         }]
     }
-    ````
-1. Review the policy and provide the name 'spinnakerPassRolePolicy'
-1. Create the policy
+    ```
+
+* Review the policy and provide the name 'spinnakerPassRolePolicy'
+* Create the policy
 
 #### Create the spinnaker-assumed role
 
-1. Go to the [IAM Create Role](https://console.aws.amazon.com/iam/home?region=us-west-2#/roles$new) page
-1. Use the default "Aws service" as type of trusted entity
-1. Select "EC2" as the service that will use this role
-1. Attach permissions policies PowerUserAccess and spinnakerPassRolePolicy
-1. Review the role and enter Role name 'spinnaker-assumed'
-1. Create the role
+* Go to the [IAM Create Role](https://console.aws.amazon.com/iam/home?region=us-west-2#/roles$new) page
+* Use the default "Aws service" as type of trusted entity
+* Select "EC2" as the service that will use this role
+* Attach permissions policies PowerUserAccess and spinnakerPassRolePolicy
+* Review the role and enter Role name 'spinnaker-assumed'
+* Create the role
 
 #### Establish Trust relationship
 
 The spinnaker-assumed role must 'trust' the spinnaker user. 
 
-1. Go to the [spinnaker IAM user] and copy the user ARN
-1. Go to the [Trust relationships tab for the spinnaker-assumed role]
-1. Edit trust relationship and change it to (replaceing spinnaker-user-arn with your arn):
-    ````
+* Go to the [spinnaker IAM user](https://console.aws.amazon.com/iam/home?region=us-west-2#/users/spinnaker) and copy the user ARN
+* Go to the Trust relationships tab for the spinnaker-assumed role
+* Edit trust relationship and change it to (replaceing spinnaker-user-arn with your arn):
+
+    ```
     {
         "Version": "2012-10-17",
         "Statement": [{
@@ -173,8 +182,9 @@ The spinnaker-assumed role must 'trust' the spinnaker user.
         "Action": "sts:AssumeRole"
         }]
     }
-    ````
-1. Update the Trust relationship
+    ```
+
+* Update the Trust relationship
 
 
 ## Launch an EC2 instance
@@ -449,9 +459,15 @@ I tried to be overly opinionated in the interest of getting a functional demo in
 ## Additional resources
 
 [Spinnaker setup](https://www.spinnaker.io/setup/install/)
+
 [Spinnaker AWS](https://www.spinnaker.io/setup/install/providers/aws/)
+
 [Spinnaker Hello Deployment Codelab](https://www.spinnaker.io/guides/tutorials/codelabs/hello-deployment/)
+
 [Armory Application Deployment Pipeline](https://docs.armory.io/install-guide/application_pipeline/)
+
 [Armory Install Guid](https://docs.armory.io/install-guide/)
+
 [StackOverflow - Spinnaker VPC naming](https://stackoverflow.com/questions/43393804/no-account-vpc-available-when-trying-to-create-security-group)
+
 [Spinnakerteam Slack](https://spinnakerteam.slack.com/)
