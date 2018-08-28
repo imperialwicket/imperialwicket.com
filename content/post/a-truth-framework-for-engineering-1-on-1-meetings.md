@@ -91,7 +91,7 @@ Let's get real here. Your top performers? They can get another job. It could pro
 
 During an early one on one meeting (usually the second), I propose the following prompt:
 
-1. List your top 1 to 3 factors that make you want to stay at <company>.
+1. List your top 1 to 3 factors that make you want to stay at theCompany.
 1. List your top 1 to 3 factors that would make you want to actively search for alternative employment (whether actual factors, known deal-breakers, or just concerns about things we might be trending toward).
 
 This discussion is super helpful. Take notes, keep them handy, refer to them. Just like the _Opener_ refresh these periodically. Make sure you still have a good handle on the key features that your team is offering individuals and who appreciates what features most. Be honest and direct about this, actively seek to discover why your team members would search for another job - it might be time. People change, they have motivations outside of your team, it could be that a team member is ready for a change that will result in them leaving the company. It is *far* better to discover this in advance and plan for it, than to get two week's notice and have to deal with it.
@@ -108,3 +108,9 @@ Especially at the beginning, this is hard - sometimes for both parties. As a man
 ## Call for help
 
 Hopefully some managers/teams find this helpful. I'm excited about these methods, but I am also very interested in how others think they can be improved.
+
+Have you tried some or all of these techniques? What worked for you? Can this sort of technique have widespread success?
+
+What am I missing? What information is important that I'm not getting?
+
+I would genuinely love to improve upon this and find greater success in improving my team and maintaining the positive enthusiasm and engagement of its members.
