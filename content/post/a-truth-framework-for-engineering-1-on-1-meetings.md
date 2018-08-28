@@ -64,7 +64,7 @@ I think one of the most important things we can discuss in a one on one meeting 
 1. What do you think of your trajectory? Can this position/direction continue to keep you interested and engaged?
 1. Is there a different job you'd rather be doing? Why/why not?
 1. What was the best project you touched in the past several weeks? Why?
-1. What was the worts project you touched in the past several weeks? Why?
+1. What was the worst project you touched in the past several weeks? Why?
 1. What can I do to make your day-to-day easier?
 1. What am I doing that makes your day-to-day harder?
 1. How is the team lifting you up lately? How do we continue it?
