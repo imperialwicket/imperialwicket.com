@@ -1,5 +1,5 @@
 {
-  "title": "[Further Analysis] Your favorite text editor/IDE",
+  "title": "Further Analysis of Your favorite text editor/IDE",
   "description": "[Further Analysis] Your favorite text editor/IDE",
   "date": "2011-03-22",
   "url": "-further-analysis-your-favorite-text-editoride/",

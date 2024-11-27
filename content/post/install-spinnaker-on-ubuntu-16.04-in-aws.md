@@ -8,8 +8,6 @@
   "draft": false
 }
 
-# Install Spinnaker on Ubuntu 16.04LTS in AWS
-
 I encountered a lot of issues installing [Spinnaker](https://www.spinnaker.io/) (1.6.1 and 1.7.x) on Ubuntu in Amazon Web Services. This post is the collection of steps I took to get a demo server with a working Spinnaker and Jenkins installation. I am going to use [GitHub](https://github.com/) and the [GitHub Branch Source Plugin](https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/index.html#github-branch-source) from CloudBees in order to trigger my build/bakes. My target flow for the demo is:
 
 1. Push a branch/create a pull request with changes (human action)
