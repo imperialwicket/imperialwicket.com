@@ -2,33 +2,17 @@
 
 This is the imperialwicket.com blog, powered by [Hugo](https://github.com/spf13/hugo/), hosted on S3/Cloudfront.
 
-### Git hook
+## Deploy
 
-A post-commit like this works great for me, since everytime I commit to master, I want s3 to sync:
+A post-commit would be great, but it's something like this:
 
 ````
-#!/bin/bash
-#
-# Deploy to s3 when master gets updated. 
-#
-# This expects (and does NOT check for) s3cmd to be installed and configured!
-# This expects (and does NOT check for) hugo to be installed and on your $PATH
-
-bucket='yourBucketName'
-prefix=''
-
-branch=$(git rev-parse --abbrev-ref HEAD)
-
-if [[ "$branch" == "master" ]]; then
-  hugo
-  echo "Syncing public/* with s3://$bucket/$prefix."
-  s3cmd --acl-public --delete-removed --no-progress sync public/* s3://$bucket/$prefix
-  echo -e "\nUpdated s3://$bucket/$prefix."
-else
-  echo "*** s3://$bucket/$prefix only syncs when master branch is updated! ***"
-fi
-
-exit 0
+hugo
+cd public
+aws s3 sync . s3://imperialwicket.com --acl public-read --dryrun
+# good?
+aws s3 sync . s3://imperialwicket.com --acl public-read
+cd ..
 ````
 
-Only updating in master lets me investigate template updates and overhauls in alternate branches without worrying about stray deploys.
+Requires aws cli, and expects hugo at or around 0.137.
