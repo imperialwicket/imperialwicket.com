@@ -18,9 +18,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [params]
 	mode="toggle" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Technical musings from a startup-focused Platform Engineer and hesitant Engineering Manager"
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
+	subtitle = "Technical musings from an opinionated Platform Engineer/Leader"
+	mathjax = false # enable MathJax support
+	katex = false # enable KaTeX support
 
 # Social Tags
 
