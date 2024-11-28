@@ -22,7 +22,7 @@ This is what I've cobbled together for Engineering 1 on 1 meetings. I'm gating t
 
 The core concept is all about honest, direct, and timely feedback. Saying: "You should work on improving skill X, it would go a long way for targets A and B," to a team member annually is near worthless. Have they really been doing X poorly for a year? Why hasn't anyone told them? You can not assume that someone else is covering this: surface problems that you identify. Surface them regularly, directly, and with resolution in mind. The Truth Framework that I'm shaping targets this type of feedback leveraging a few concepts:
 
-1. The importantce of the Team - Personal development is important, but wrapping everything in Team dynamics makes personal development less... personal, and therefore less threatening. This is something of an excuse (it's not you, it's us), but it also provides very real foundations for assessment because it's not _just_ that person.
+1. The importance of the Team - Personal development is important, but wrapping everything in Team dynamics makes personal development less... personal, and therefore less threatening. This is something of an excuse (it's not you, it's us), but it also provides very real foundations for assessment because it's not _just_ that person.
 1. Regular one on one meetings with semi-targeted discussions - Not status updates, and only project-related when it has abstract importance or when there's nothing to discuss.
 1. Honest, bi-directional assessments (Trust, followed by Truth) - You know what's great about one on ones? *BOTH* parties can learn and grow as a result (It's good for the team).
 
